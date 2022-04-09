@@ -9,8 +9,8 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
-    arch: x64
+    runs-on: ubuntu-latest-20.04
+    name: Build on ubuntu-20.04 aarch64
 
     steps:
     - uses: actions/checkout@v3
